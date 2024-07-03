@@ -1,0 +1,20 @@
+.user-info {
+    margin-bottom: 8px;
+    /* Add margin between each user info section */
+}
+
+.see-pictures-link {
+    display: block;
+    /* Display the link as a block element */
+    margin-top: 16px;
+    /* Add some space between the user info and the link */
+    text-decoration: none;
+    /* Remove default underline */
+    color: #007bff;
+    /* Set link color */
+}
+
+.see-pictures-link:hover {
+    text-decoration: underline;
+    /* Underline link on hover */
+}

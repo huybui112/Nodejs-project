@@ -1,0 +1,47 @@
+.photo-uploader {
+    border: 1px solid #ccc;
+    /* Đường viền cho phần tử chính */
+    padding: 20px;
+    border-radius: 5px;
+    /* Bo góc */
+    max-width: 400px;
+    /* Để giữ nội dung ở mức trung tâm */
+    margin: 0 auto;
+    /* Canh giữa phần tử */
+}
+
+.uploader-title {
+    margin-top: 0;
+    /* Loại bỏ margin trên đầu tiêu đề */
+}
+
+.uploader-controls {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.file-input {
+    flex: 1;
+    /* Điều chỉnh độ rộng tự động để điền vào phần còn lại của không gian */
+    margin-right: 10px;
+}
+
+.upload-button {
+    background-color: #007bff;
+    /* Màu nền cho nút */
+    color: #fff;
+    /* Màu chữ cho nút */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    /* Hiệu ứng hover màu nền */
+    width: 100px;
+}
+
+.upload-button:hover {
+    background-color: #0056b3;
+    /* Màu nền hover */
+}

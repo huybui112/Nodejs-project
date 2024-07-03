@@ -1,0 +1,31 @@
+.topbar-appBar {
+  background-color: #333;
+  /* Màu nền của thanh navbar */
+}
+
+.topbar-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.topbar-toolbar .link {
+  color: #fff;
+  /* Màu chữ cho các liên kết */
+  text-decoration: none;
+  /* Loại bỏ gạch chân */
+  margin: 0 10px;
+}
+
+.topbar-toolbar .link:hover {
+  text-decoration: underline;
+  /* Gạch chân khi di chuột qua */
+}
+
+.left-section,
+.middle-section,
+.right-section {
+  display: flex;
+  align-items: center;
+}

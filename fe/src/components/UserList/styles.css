@@ -1,0 +1,11 @@
+.link {
+
+    /* Màu chữ cho các liên kết */
+    text-decoration: none;
+    color: black;
+}
+
+.link:hover {
+    text-decoration: underline;
+    /* Gạch chân khi di chuột qua */
+}

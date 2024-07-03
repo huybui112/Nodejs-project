@@ -1,0 +1,88 @@
+.photo-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* Three columns */
+    grid-gap: 10px;
+    /* Gap between grid items */
+}
+
+.photo-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.photo-item img {
+    width: 100%;
+    /* Ensure the image fills its container */
+    height: auto;
+    /* Maintain aspect ratio */
+}
+
+/* Specific styling for the fourth photo */
+.photo-item:nth-child(4) {
+    grid-column: 2 / span 1;
+    /* Place it in the middle of the second column */
+    align-self: center;
+    /* Align it vertically to the center */
+}
+
+.comments {
+    margin-top: 10px;
+}
+
+.comments>div {
+    margin-bottom: 5px;
+}
+
+.comment-user {
+    font-weight: bold;
+}
+
+.comment-date {
+    font-size: 0.9em;
+    color: #888;
+}
+
+.comment-text {
+    margin-left: 20px;
+}
+
+input[type="text"] {
+    padding: 5px;
+    /* Adjust padding as needed */
+    border: 1px solid #ccc;
+    /* Border color */
+    border-radius: 4px;
+    /* Rounded corners */
+}
+
+/* Style for the button */
+button {
+    padding: 5px 10px;
+    /* Adjust padding as needed */
+    border: none;
+    /* Remove default button border */
+    background-color: #007bff;
+    /* Button background color */
+    color: #fff;
+    /* Text color */
+    border-radius: 4px;
+    /* Rounded corners */
+    cursor: pointer;
+    /* Cursor style on hover */
+}
+
+/* Hover effect for the button */
+button:hover {
+    background-color: #0056b3;
+    /* Darker background color on hover */
+}
+
+.text {
+    margin: 20px;
+}
